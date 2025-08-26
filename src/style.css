@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  --blue-color: #00acdc;
+}
+
 a {
   color: #000;
   text-decoration: none;
@@ -33,7 +37,7 @@ body {
 }
 
 .nav__link:hover {
-  color: #00acdc;
+  color: var(--blue-color);
 }
 
 .header {
@@ -44,7 +48,7 @@ body {
 }
 
 .is-active {
-  color: #00acdc;
+  color: var(--blue-color);
   position: relative;
   margin-left: 0 !important;
 }
@@ -58,7 +62,7 @@ body {
   height: 4px;
   opacity: 1;
   border-radius: 8px;
-  background-color: #00acdc;
+  background-color: var(--blue-color);
 }
 
 .nav__menu {
